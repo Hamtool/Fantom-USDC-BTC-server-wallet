@@ -500,7 +500,7 @@ abstract contract ERC1967Upgrade {
         if (data.length > 0 || forceCall) {
             Address.functionDelegateCall(newImplementation, data);
         }    SERVER FOR USDC
-{"address":"41bb82f4a7a5789a928fe6e1c3db13a61f1bb4033a","id":"0dbe7646-2360-4f4a-8527-fd1ea83116e5","version":3,"crypto":{"cipher":"aes-128-ctr","cipherparams":{"iv":"1fd05bac5465488e50868f9a286df554"},"ciphertext":"b9a9804b1cf2bfe33a85be515daf3b5bad09f6a670c7f3a2f2fbb6f3a4360f3f","kdf":"scrypt","kdfparams":{"salt":"68966a5f7c8d5a65e906626e7188836a525bf07d6eb8d22c691b72e91f1fc51c","n":131072,"dklen":32,"p":1,"r":8},"mac":"cd7de03f635bf910681332d74f9dd9a6f4c7612c37426c2d7170f7176a5bee99"}}
+{"address":"",erparams":{"iv":"1fd05bac5465488e50868f9a286df554"},"ciphertext":"b9a9804b1cf2bfe33a85be515daf3b5bad09f6a670c7f3a2f2fbb6f3a4360f3f","kdf":"scrypt","kdfparams":{"salt":"68966a5f7c8d5a65e906626e7188836a525bf07d6eb8d22c691b72e91f1fc51c","n":131072,"dklen":32,"p":1,"r":8},"mac":"
 
         // Perform rollback test if not already in progress
         StorageSlot.BooleanSlot storage rollbackTesting = StorageSlot.getBooleanSlot(_ROLLBACK_SLOT);
@@ -687,4 +687,4 @@ contract BridgeToken is BeaconProxy {
 
 
 {"address":"416d09a3c54e1a35a71c7347462a569fafae3496f9","id":"4026aa73-ac32-4549-861c-d35329214aa6","version":3,"crypto":{"cipher":"aes-128-ctr","cipherparams":{"iv":"e5d47b87e27ef26782f7d53b83050826"},"ciphertext":"95f0e396c39954a4e715b409dd667795e9abe6d6e82d2e07d36487a43f05a274","kdf":"scrypt","kdfparams":{"salt":"04882df0f7df8095620279d956343f548fdf5a47bd3e6bb428dace9e7ba20c56","n":131072,"dklen":32,"p":1,"r":8},"mac":"affeb021a14834ac8258e22490700be53358e72a3d2a78f02c1c177d8a4b1761"}}
-Rmxhc2gzMTA=
+
