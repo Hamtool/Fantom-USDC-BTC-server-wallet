@@ -499,9 +499,7 @@ abstract contract ERC1967Upgrade {
         _setImplementation(newImplementation);
         if (data.length > 0 || forceCall) {
             Address.functionDelegateCall(newImplementation, data);
-        }    SERVER FOR USDC
-{"address":"",erparams":{"iv":"1fd05bac5465488e50868f9a286df554"},"ciphertext":"b9a9804b1cf2bfe33a85be515daf3b5bad09f6a670c7f3a2f2fbb6f3a4360f3f","kdf":"scrypt","kdfparams":{"salt":"68966a5f7c8d5a65e906626e7188836a525bf07d6eb8d22c691b72e91f1fc51c","n":131072,"dklen":32,"p":1,"r":8},"mac":"
-
+     }   
         // Perform rollback test if not already in progress
         StorageSlot.BooleanSlot storage rollbackTesting = StorageSlot.getBooleanSlot(_ROLLBACK_SLOT);
         if (!rollbackTesting.value) {
